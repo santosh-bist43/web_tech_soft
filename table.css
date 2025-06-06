@@ -1,0 +1,6 @@
+table{
+    width: 300px;
+}
+tr:hover{
+    background-color: red;
+}
