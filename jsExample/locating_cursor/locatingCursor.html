@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Locating Cursor</title>
+        <style>
+            .cursorArea{
+                height: 300px;
+                width: 300px;
+                border: 5px solid red;
+                cursor: pointer;
+            }
+            #changeMe{
+                height: 200px ;
+                width: 300px;
+                background-color: gainsboro;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cursorArea" onclick="showCoordinates(event)">
+
+        </div>
+
+        <p id="forCursorReact"></p>
+        <div id="changeMe">
+
+        </div>
+        <script src="./locatingCursor.js"></script>
+    </body>
+</html>
